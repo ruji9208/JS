@@ -1,0 +1,81 @@
+<!-- 
+    두 가지 엔진, js와 css 엔진이 돌아가고 있다. 이 두 가지 모두 브라우저에서 돌아간다. 
+    브라우저가 실행되어야 하는 파일이 있다는 것을 확인했을 때. 
+    '검사'페이지에 콘솔 창에서 js, Element에서 html, 그 옆에서 css 확인이 가능 
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="CSS/style.css" />
+  <title>Momentum App</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <h2 id="clock">00:00:00</h2>
+    <!-- <audio id="audio" src="audio\지금의 나였다.mp3" controls="controls" autoplay></audio>  -->
+    <form class="hidden" id="login-form">
+      <input required maxlength="15" type="text" placeholder="What is your name?" />
+      <input type="submit" value="Log In" />
+    </form>
+    <h1 class="hidden" id="greeting"></h1>
+    <form id="todo-form">
+      <input type="text" placeholder="Write a To Do &  Press Enter" required />
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+      <span></span>
+      <span></span>
+    </div>
+    <div id="weather">
+      <span></span>
+      <span></span>
+    </div>
+    <!-- <iframe class="iframeAudio" frameborder="0"></iframe> -->
+    <div id="exchange">
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+  <script src="js/greetings.js"></script>
+  <script src="js/clock.js"></script>
+  <script src="js/quotes.js"></script>
+  <script src="js/background.js"></script>
+  <script src="js/todo.js"></script>
+  <script src="js/weather.js"></script>
+  <script src="js/quote_audio.js"></script>
+  <script src="js/exchange.js"></script>
+  <!-- <script src="4.1 Form Submission.js"></script> -->
+  <!-- <script src="4.0 Input Values.js"></script> -->
+  <!-- <script src="1 ~ #2.5 app.js"></script> -->
+  <!-- <script src="2.5 array.js"></script> -->
+  <!-- <script src="2.6 Objects.js"></script> -->
+  <!-- <script src="2.7 Functions part One.js"></script> -->
+  <!-- <script src="2.8 Functions part Two.js"></script> -->
+  <!-- <script src="2.9 Recap.js"></script> -->
+  <!-- <script src="2.10 Recap_two.js"></script> -->
+  <!-- <script src="2.11 Returns.js"></script> -->
+  <!-- <script src="2.12 Recap.js"></script> -->
+  <!-- <script src="2.13 Conditionals.js"></script> -->
+  <!-- <script src="2.14 Conditionals part Two.js"></script> -->
+  <!-- <script src="2.15 Conditionals part Three.js"></script> -->
+  <!-- <script src="2.16 Recap.js"></script> -->
+  <!-- <script src="3.0 The Document Object.js"></script> -->
+  <!-- <script src="3.1 HTML in Javascript.js"></script> -->
+  <!-- <script src="3.2 Searching For Elements.js"></script> -->
+  <!-- <script src="3.3 Events.js"></script> -->
+  <!-- <script src="3.4 Events part Two.js"></script> -->
+  <!-- <script src="3.5 More Events.js"></script> -->
+  <!-- <script src="3.6 CSS in Javascript.js"></script> -->
+  <!-- <script src="3.7 CSS in Javascript part Two.js"></script> -->
+  <!-- <script src="3.8 CSS in Javascript part Three.js"></script> -->
+
+</body>
+
+</html>
